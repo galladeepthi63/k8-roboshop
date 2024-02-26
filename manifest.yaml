@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - name: mongodb
-        image: nginx
+        image: deepthi6/daws/mongodb:v1
         imagePullPolicy: Always
 
 ---
