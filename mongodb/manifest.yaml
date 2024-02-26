@@ -25,7 +25,7 @@ spec:
       - name: mongodb
         image: deepthi6/mongodb:v1
         imagePullPolicy: Always
-
+        
 ---
 apiVersion: v1
 kind: Service
@@ -35,7 +35,7 @@ metadata:
 spec:
   selector:
     app: mongodb
-    project: service
+    project: roboshop
     tier: db
   ports:
   - protocol: TCP
