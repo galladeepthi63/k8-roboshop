@@ -24,8 +24,8 @@ spec:
       containers:
       - name: mongodb
         image: deepthi6/mongodb:v1
-        imagePullPolicy: Always
-        
+        #imagePullPolicy: Always
+
 ---
 apiVersion: v1
 kind: Service
