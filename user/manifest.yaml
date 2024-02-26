@@ -33,7 +33,9 @@ spec:
       - name: user
         image: deepthi6/user:v1
         imagePullPolicy: Always
-
+        envFrom:
+        - configMapRef:
+            name: user
 ---
 apiVersion: v1
 kind: Service
