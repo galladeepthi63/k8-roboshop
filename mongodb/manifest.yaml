@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - name: mongodb
-        image: deepthi6/mongodb:v1
+        image: ddeepthi6/mongodb:v1
         #imagePullPolicy: Always
 
 ---
