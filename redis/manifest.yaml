@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - name: redis
-        image: deepthi6/redis:v1
+        image: redis
         imagePullPolicy: Always
 
 ---
