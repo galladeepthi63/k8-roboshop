@@ -35,7 +35,7 @@ spec:
     spec:
       containers:
       - name: rabbitmq
-        image: deepthi6/rabbitmq:v1
+        image: rabbitmq
         imagePullPolicy: Always
         envFrom:
         - secretRef:
